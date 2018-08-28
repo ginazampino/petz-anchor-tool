@@ -1,0 +1,174 @@
+/*
+
+    Elements
+
+*/
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    background-image: url('../bg.png');
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: 14px;
+    height: 100%;
+    margin: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 60px;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ffffff;
+    display: inline-block;
+    font-family: "Caveat Brush", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 0;
+    position: relative;
+    margin-top: 6px;
+    text-shadow: #222 0.07em 0.07em 0;
+}
+
+h1::before {
+    background-color: #FF595E;
+    bottom: 0;
+    content: "";
+    height: 60%;
+    left: -2px;
+    position: absolute;
+    transform: rotate(-2deg);
+    width: calc(100% + 4px);
+    z-index: -1;
+}
+
+a:active,
+a:hover,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a {
+    color: #FF595E;
+    font-weight: 700;
+    transition: .1s ease-in-out;
+}
+
+a:hover {
+    box-shadow: inset 400px 0 0 0 #FF595E;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 0 5px;
+    text-shadow: #222 .1em .1em 0;
+    transition: .1s ease-in-out;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+p + p {
+    margin-top: 5px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 4px dashed #FF595E;
+    width: 80%;
+}
+
+footer {
+    font-size: 12px;
+    letter-spacing: .5px;
+    margin: 50px;
+    text-align: center;
+}
+
+
+/*
+
+    Classes & IDs
+
+*/
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.highlight {
+    background-color: #FF595E;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: #222 .1em .1em 0;
+    padding: 0 5px;
+}
+
+#editor {
+    border: none;
+    border-bottom: 4px dashed #FF595E;
+    display: inline-block;
+    height: 300px;
+    letter-spacing: .5px;
+    outline: none;
+    padding: 40px;
+    width: 100%;
+}
+
+.control-menu {
+    display: flex;
+}
+
+.control-item {
+    align-items: center;
+    background-color: #FF595E;
+    color: #ffffff;
+    display: flex;
+    flex: 1;
+    font-weight: 700;
+    height: 100%;
+    justify-content: center;
+    letter-spacing: 3px;
+    margin-top: -3px;
+    padding: 25px;
+    text-transform: uppercase;
+    transition: .1s ease-in-out;
+}
+
+.control-item:hover {
+    background-color: rgba(255, 89, 95, 0.75);
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}

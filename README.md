@@ -1,5 +1,5 @@
 # Paint Ballz Anchor Tool
-JavaScript paint ballz anchor tool for modding Petz games (.pet and .breed files).
+JavaScript paint ballz anchor tool for modding Petz 3, 4 and 5 (1998-2002).
 
 ## What does it do?
 After applying paint ballz (manually or using Petz Workshop) to a .pet or .breed file, simply copy and paste your LNZ code into this tool to quickly anchor the paint ballz, without having to do so manually or using Excel.

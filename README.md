@@ -10,6 +10,7 @@ Please note that colors, textures, and anchors will be applied to **all** input 
 
 ## Sample input:
 
+```
 9,	60,	0,	1,	0.3,	39,	-1,	0,	-1,	-1,	-1
 10,	60,	0,	1,	0.3,	39,	-1,	0,	-1,	-1,	-1
 11,	60,	0,	1,	0.3,	39,	-1,	0,	-1,	-1,	-1
@@ -26,3 +27,4 @@ Please note that colors, textures, and anchors will be applied to **all** input 
 21,	60,	0,	1,	0.3,	39,	-1,	0,	-1,	-1,	-1
 22,	60,	0,	1,	0.3,	39,	-1,	0,	-1,	-1,	-1
 12,	62,	0,	1,	0,	39,	-1,	0,	-1,	-1,	-1
+```

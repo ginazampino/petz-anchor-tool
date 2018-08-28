@@ -43,7 +43,7 @@ h1 {
     font-weight: 500;
     padding: 0;
     position: relative;
-    margin-top: 6px;
+    margin: 6px;
     text-shadow: #222 0.07em 0.07em 0;
 }
 
@@ -114,6 +114,15 @@ footer {
     text-align: center;
 }
 
+input {
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 4px dashed #FF595E;
+    outline: none;
+    margin: 0 10px;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+}
 
 /*
 
@@ -145,6 +154,10 @@ footer {
     outline: none;
     padding: 40px;
     width: 100%;
+}
+
+.input-fields {
+    margin-bottom: 20px;
 }
 
 .control-menu {

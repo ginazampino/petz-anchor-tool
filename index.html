@@ -23,9 +23,15 @@
             </h1>
         </header>
         <div class='input-fields'>
-                <input id='color' type='text' placeholder='Color!'></input>
-                <input id='texture' type='text' placeholder='Texture!'></input>
-            </div>
+                <input id='base' type='text' placeholder='Base' title='Base Ball'></input>
+                <input id='size' type='text' placeholder='Size' title='Size (0 – 200)'></input>
+                <input id='color' type='text' placeholder='Color' title='Color (0 – 255)'></input>
+                <input id='outline-color' type='text' placeholder='O. Color' title='Outline Color (0 – 255)'></input>
+                <input id='fuzz' type='text' placeholder='Fuzz' title='Fuzz (0 – 7)'></input>
+                <input id='outline' type='text' placeholder='Outline' title='Outline (-1 – 8)'></input>
+                <input id='group' type='text' placeholder='Group' title='Group (-1 +)'></input>
+                <input id='texture' type='text' placeholder='Texture' title='Texture (See LNZ Pro)'></input>
+        </div>
         <main>
             <textarea id='editor' placeholder='Paste LNZ code here!'></textarea>
             <ul class="control-menu">

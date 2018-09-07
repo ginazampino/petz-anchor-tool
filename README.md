@@ -4,9 +4,9 @@ JavaScript paint ballz anchor tool for modding Petz 3, 4 and 5 (1998-2002).
 ## What does it do?
 After applying paint ballz (manually or using Pet Workshop) to a .pet or .breed file, simply copy and paste your LNZ code into this tool to quickly anchor the paint ballz, without having to do so manually or using Excel.
 
-If desired, you may also change the color and/or texture values. For colors, please refer to a Petz community color chart. For textures, check the corresponding texture ID numbers using LNZ Pro. 
+If desired, you may also change other values, such as color or texture. For colors, please refer to a Petz community color chart. For textures, check the corresponding texture ID numbers using LNZ Pro. 
 
-Please note that colors, textures, and anchors will be applied to all input paint ballz, so be sure to anchor your paint ballz separately in batches if you want to apply varying colors and/or textures.
+Please note that values and anchors will be applied to all input paint ballz, so be sure to anchor your paint ballz separately in batches if you want to apply different values to different groups of paint ballz.
 
 ## Sample input:
 
